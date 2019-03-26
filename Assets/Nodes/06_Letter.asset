@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 06_Letter
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - '"There was a letter on my desk last night. Did you take it?"'
+  - '"No, sir," the man explains. "The investigators were here earlier and they did
+    take a look around. One of them might have collected it as evidence."'
+  - This made little sense to you. What about that particular letter was of such importance
+    to them?
+  - '"That can''t be. They left everything else just where it is."'
+  - The man responds quickly, as if he had this response ready, "The system works
+    the way it works."
+  responses: []
+  overrideNode: {fileID: 11400000, guid: f448b6258a4a3804294e199977303d1a, type: 2}

@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
 
         text.text = currentNode.lines[currentLine].Substring(0, currentChar);
 
-        if(Input.GetKeyDown(KeyCode.Return))
+        if(Input.GetKeyDown(KeyCode.Return) && rbox.GetCurrentAnimatorStateInfo(0).IsName("Enter") == false)
         {
             Next();
         }
@@ -132,6 +132,11 @@ public class GameManager : MonoBehaviour
         {
             bgAnim.Play("FadeIn");
             SoundManager.me.music.Play();
+        }
+        else if (c == "Fail")
+        {
+            bgAnim.Play("FadeOut");
+            SoundManager.me.music.Stop();
         }
     }
 }

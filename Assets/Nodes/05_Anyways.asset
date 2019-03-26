@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 05_Anyways
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - '"Anyways," the man explains, "I really shouldn''t be talking to you."'
+  - '"I''m violating nearly all of the ethical codes of guarding."'
+  - '"I think it''s best for us both if we just sit here in silence."'
+  responses:
+  - line: Very well.
+    result: {fileID: 11400000, guid: 3c3fbab900da8454083c1018a9c3fbb6, type: 2}
+  - line: Can I have some food?
+    result: {fileID: 11400000, guid: bf0e380e565aa664498a3fcad445eeca, type: 2}
+  - line: Where is my letter.
+    result: {fileID: 11400000, guid: 4c755c56fc086df4c8daf89e9285eb67, type: 2}
+  overrideNode: {fileID: 0}

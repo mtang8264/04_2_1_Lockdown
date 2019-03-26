@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: 03_WhAreYou
   m_EditorClassIdentifier: 
   command: 
-  lines: []
-  responses: []
+  lines:
+  - '"You don''t need to know who I am," the voice replied.'
+  - '"If anything, I should be the one asking who you are to deserve such a watchful
+    eye."'
+  - What does he mean? His watchful eye? Why is he watching you?
+  responses:
+  - line: '"Why are you watching me?"'
+    result: {fileID: 11400000, guid: 2c1c26969d225004096cb579fd60d962, type: 2}
+  - line: '"Please let me out."'
+    result: {fileID: 11400000, guid: cc8b1208fc96f7c449e08cbb3813ec2c, type: 2}
+  - line: '"Who told you to watch me?"'
+    result: {fileID: 11400000, guid: 76e2fde0c86e399478c3c0330b4392d5, type: 2}
   overrideNode: {fileID: 0}

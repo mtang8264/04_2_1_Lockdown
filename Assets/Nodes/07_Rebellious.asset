@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 07_Rebellious
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - '"Look at me now," the man says with some frustration. "You''ve got me talking
+    again."'
+  - '"No more of this. No more speaking."'
+  - You have a feeling the man means it this time. The air feels even heavier.
+  - There is little to do in your small bedroom.
+  - You head to the window to look out across the street.
+  - You see people walking to and from places. They don't have any reason to look
+    back.
+  responses: []
+  overrideNode: {fileID: 0}
