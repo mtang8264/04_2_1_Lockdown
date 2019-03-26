@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 00_Awakeninng
+  m_EditorClassIdentifier: 
+  lines:
+  - tic...
+  - toc...
+  - tic...
+  - toc...
+  - tic...
+  - '...'
+  - '...'
+  - RING!!!
+  - RING!!!!!!!
+  - RING!!!!!!!!!!
+  responses:
+  - line: Turn off the alarm.
+    result: {fileID: 11400000, guid: 7b02efbfdaa4643afb926e5245928ee8, type: 2}
+  - line: Snooze.
+    result: {fileID: 11400000, guid: 88e0e707dd6eb42aa94435c082ca2ad7, type: 2}
+  overrideNode: {fileID: 0}

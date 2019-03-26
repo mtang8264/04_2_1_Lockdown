@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 02_Desk
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - You head to your desk, unsure of what you expect to find.
+  - The desk is covered in several papers.
+  - Some from work. Some from family wishing you'd come visit.
+  - One things, however, stands out.
+  - Or in a way it does not.
+  - You notice that you can not find a letter you had received yesterday.
+  - This is strange as your desk is very well organized.
+  - You get on your knees to see it fell on the ground, but as you make your way down
+    you stub your toe.
+  - You let out a shout of pain and a gruff voice responds through the door.
+  - '"Keep it down in there."'
+  - You can't help but resond, "Who are you?"
+  responses: []
+  overrideNode: {fileID: 11400000, guid: f65e955df33ba48f097847a92d163677, type: 2}
