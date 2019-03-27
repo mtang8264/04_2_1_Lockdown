@@ -22,5 +22,15 @@ MonoBehaviour:
   - You head to the window to look out across the street.
   - You see people walking to and from places. They don't have any reason to look
     back.
-  responses: []
+  - Across the street, an old man is looking back at your from his bedroom. His dressing
+    gown is pulled tight.
+  - You can hardly make out his face but it looks like he's... horrified...
+  - There's no way they can keep you in here.
+  responses:
+  - line: '"Why exactly am I here?"'
+    result: {fileID: 11400000, guid: d998655c9da2c1542a2b6d4338c7f23f, type: 2}
+  - line: '"What idiot put you in charge?"'
+    result: {fileID: 11400000, guid: a7e6f04883b12d045a98bb23a9c0b6f3, type: 2}
+  - line: Just give up.
+    result: {fileID: 11400000, guid: 3c3fbab900da8454083c1018a9c3fbb6, type: 2}
   overrideNode: {fileID: 0}

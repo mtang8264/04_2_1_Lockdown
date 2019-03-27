@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 09_SecondMan
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - After that awkward exchange, you sit in silence for what seems like hours.
+  - You feel your stomach rubbing against itself as you grow ever hungrier.
+  - Some time in the afternoon, you hear a door in the hallway open and shut rather
+    quickly.
+  - You hear a voice outside, but it is not the gruff voice of the guard.
+  - No, this voice is shriller, almost like a mouse or other small rodent.
+  - '"How''s he doing in there, Hans?" the shrill man asks the guard, apparently called
+    Hans.'
+  - '"Hungry I think" Hans responds.'
+  - '"Why don''t I give him this?" the shrill man posited.'
+  - '"Umm, I think that''s against protocol..."'
+  - '"But I suppose it can''t hurt."'
+  - Two loud knocks come from the other side of the door before the shrill man speaks.
+  - '"Come to the door." He is very demanding despite the weakness in his voice.'
+  responses:
+  - line: Wait at the door.
+    result: {fileID: 11400000, guid: 7624407f9e57ef941810987dd7d7502c, type: 2}
+  - line: Refuse.
+    result: {fileID: 11400000, guid: 3706a603f3846c844829d82c282c84d8, type: 2}
+  - line: Charge the door.
+    result: {fileID: 11400000, guid: 8171b277175b3b6469d536509e313ba4, type: 2}
+  overrideNode: {fileID: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 10_Apple
+  m_EditorClassIdentifier: 
+  command: 
+  lines:
+  - You walk up to the door and knock against it.
+  - '"Don''t do anything stupid," Hans warns you.'
+  - The door opened just a crack and you catch a glimpse of the face of a tall slender
+    man.
+  - You assume this is the shrill voiced man, and he slips a small round object to
+    you before slamming the door once more.
+  - The object turns out to be a small apple with a bite taken out.
+  - You don't care and you consume the apple very quickly.
+  - '"...thank you..."'
+  responses: []
+  overrideNode: {fileID: 11400000, guid: 4a00ff55b817bc64fa69d3070567d990, type: 2}

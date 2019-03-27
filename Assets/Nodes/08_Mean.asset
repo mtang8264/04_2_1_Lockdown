@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccf8b50466584751bbbacc1b39a552a, type: 3}
+  m_Name: 08_Mean
+  m_EditorClassIdentifier: 
+  command: Mean
+  lines:
+  - '"You can''t keep me in here!" you shout. " What idiot put you in charge of me?"'
+  - '"That''s not very nice..." the man seems sad.'
+  - '"I''m just doing my job. It''s not my fault the court believes that you are a
+    criminal."'
+  - '"A criminal?" This is the first you are hearing of this.'
+  - '"What crime am I guilty of?"'
+  - '"I don''t know. I''m just a guard, and a rather dull witted one, isn''t that
+    write?"'
+  responses: []
+  overrideNode: {fileID: 11400000, guid: 65c3aa6cb3276be4fa00cdd185b5be61, type: 2}

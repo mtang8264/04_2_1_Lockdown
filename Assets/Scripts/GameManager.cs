@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,10 +21,14 @@ public class GameManager : MonoBehaviour
     public Animator bgAnim;
     public Animator rbox;
 
+    public static bool meanToGuard;
+    public static bool hungry;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        meanToGuard = false;
+        hungry = false;
     }
 
     // Update is called once per frame
@@ -137,6 +142,26 @@ public class GameManager : MonoBehaviour
         {
             bgAnim.Play("FadeOut");
             SoundManager.me.music.Stop();
+        }
+        else if(c== "Mean")
+        {
+            meanToGuard = true;
+        }
+        else if(c== "Hungry")
+        {
+            hungry = true;
+        }
+        else if(c == "Lost")
+        {
+            SceneManager.LoadScene("Waited");
+        }
+        else if(c == "Shot")
+        {
+            SceneManager.LoadScene("Shot");
+        }
+        else if(c == "End")
+        {
+            SceneManager.LoadScene("End");
         }
     }
 }
